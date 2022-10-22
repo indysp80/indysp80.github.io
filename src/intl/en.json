@@ -1,0 +1,18 @@
+{
+    "title": "Increase <i class=\"pink\">productivity</i> of your teams <br />and ensure the <i class=\"pink\">security</i> of your data",
+    "read_more": "Read more",
+    "card": {
+        "user": {
+            "title": "Advanced management of users",
+            "content": "Easily manage your employees, external partners as well as the security and access of your products. The kSuite dashboard allows you to control all aspects of your business from a single place."
+        },
+        "team": {
+            "title": "Teams management",
+            "content": "Create work teams with specific rights and access to facilitate the management of your employees. kSuite simplifies and speeds up all your personnel movement management."
+        },
+        "calendar": {
+            "title": "Calendars and shared addresses",
+            "content": "Create work teams with specific rights and access to facilitate the management of your employees. kSuite simplifies and speeds up all your personnel movement management."
+        }                
+    }
+}
