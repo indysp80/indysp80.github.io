@@ -7,6 +7,7 @@ import { FormattedMessage, Link } from "gatsby-plugin-react-intl"
 
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
+
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 
@@ -16,12 +17,12 @@ const Box = ({ data }) => {
   return (
     <Card variant="none" className="box-infomaniak">
       <CardMedia
-        component="img"
         height="200"
-        image="/static/background.png"
         alt="bg"
-      />
-      <div className="box-infomaniak__image">{data.image}</div>
+      >
+        <StaticImage alt="yeah okay" src="../images/background.png" />
+        <div className="box-infomaniak__image">{data.image}</div>
+      </CardMedia>
       <CardContent className="box-infomaniak__content" style={{'padding': 40 }}>
         {data.icon}
         <h2>{data.title}</h2>
