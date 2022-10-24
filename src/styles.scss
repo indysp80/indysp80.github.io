@@ -59,6 +59,14 @@ a {
   background-color: $gray-light;
 }
 
+.MuiCardMedia-root {
+  height: 200px;
+
+  >.gatsby-image-wrapper {
+    height: 200px;
+  }
+}
+
 .box-infomaniak {
   border-radius: 8px;
   position: relative;
@@ -74,7 +82,7 @@ a {
   }
 
   &__content {
-    height: 280px;
+    min-height: 280px;
 
     p {
       color: $gray;

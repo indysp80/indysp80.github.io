@@ -19,6 +19,7 @@ const Box = ({ data }) => {
       <CardMedia
         height="200"
         alt="bg"
+        className="box-infomaniak__media"
       >
         <StaticImage alt="yeah okay" src="../images/background.png" />
         <div className="box-infomaniak__image">{data.image}</div>
